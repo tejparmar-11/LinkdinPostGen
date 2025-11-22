@@ -90,5 +90,4 @@ def get_unified_tags(posts_with_metadata):
         raise OutputParserException("Context too big. Unable to parse jobs.")
     return res
 
-if __name__ == "__main__":
-    process_posts("data/raw_posts.json", "data/processed_posts.json")
+

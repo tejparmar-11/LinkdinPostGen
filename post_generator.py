@@ -48,5 +48,3 @@ def get_prompt(length, language, tag):
     return prompt
 
 
-if __name__ == "__main__":
-    print(generate_post("Medium", "English", "Mental Health"))

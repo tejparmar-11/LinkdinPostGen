@@ -37,8 +37,3 @@ class FewShotPosts:
         return self.unique_tags
 
 
-if __name__ == "__main__":
-    fs = FewShotPosts()
-    # print(fs.get_tags())
-    posts = fs.get_filtered_posts("Medium","Hinglish","Job Search")
-    print(posts)
